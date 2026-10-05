@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/psr-link",
+    "description": "Tyhp type definitions for psr/link 2.0.1.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.0.1",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/psr-link-impl": "~2.0.1.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/psr-link-impl"
+        }
+    }
+}
